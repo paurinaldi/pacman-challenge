@@ -21,10 +21,10 @@ window.addEventListener("DOMContentLoaded", function () {
     var secondElementPosition = secondElement.getBoundingClientRect();
 
     return (
-      firstElementPosition.left < secondElementPosition.right &&
-      firstElementPosition.right > secondElementPosition.left &&
-      firstElementPosition.top < secondElementPosition.bottom &&
-      firstElementPosition.bottom > secondElementPosition.top
+      firstElementPosition.left + 5 < secondElementPosition.right &&
+      firstElementPosition.right - 5 > secondElementPosition.left &&
+      firstElementPosition.top + 5 < secondElementPosition.bottom &&
+      firstElementPosition.bottom - 5 > secondElementPosition.top
     );
   }
 
