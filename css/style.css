@@ -1,0 +1,36 @@
+body {
+  background-color: #222;
+}
+
+img {
+  display: block;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+}
+
+img[alt="p"] {
+  top: 10px;
+  left: 10px;
+  transition: left 0.1s, top 0.1s;
+}
+
+img[alt="p"].moving {
+  animation-play-state: paused;
+}
+
+img[alt="g"] {
+  top: 200px;
+  left: 300px;
+}
+
+#cookie {
+  display: block;
+  position: absolute;
+  top: 300px;
+  left: 400px;
+  width: 30px;
+  height: 30px;
+  background-color: pink;
+  border-radius: 100%;
+}
