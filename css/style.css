@@ -15,10 +15,6 @@ img[alt="p"] {
   transition: left 0.1s, top 0.1s;
 }
 
-img[alt="p"].moving {
-  animation-play-state: paused;
-}
-
 img[alt="g"] {
   top: 200px;
   left: 300px;
